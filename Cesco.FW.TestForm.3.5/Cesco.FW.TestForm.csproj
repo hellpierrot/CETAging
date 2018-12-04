@@ -52,8 +52,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cesco.FW.Global.DBAdapter, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\고객제공문서\packages\Cesco.FW.Global.UCControls.1.2.2.2\lib\net35\Cesco.FW.Global.DBAdapter.dll</HintPath>
+    <Reference Include="Cesco.FW.Global.DBAdapter, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cesco.FW.Global.DBAdapter.1.3.0\lib\net35\Cesco.FW.Global.DBAdapter.dll</HintPath>
     </Reference>
     <Reference Include="Cesco.FW.Global.DevExpressUtil, Version=1.0.6039.29392, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
