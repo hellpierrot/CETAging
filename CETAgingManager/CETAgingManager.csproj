@@ -30,10 +30,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cesco.FW.Global.DBAdapter, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cesco.FW.Global.UCControls.1.2.2.2\lib\net35\Cesco.FW.Global.DBAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Cesco.FW.Global.DevExpressUtil, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cesco.FW.Global.UCControls.1.2.2.2\lib\net35\Cesco.FW.Global.DevExpressUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Cesco.FW.Global.UCControls, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cesco.FW.Global.UCControls.1.2.2.2\lib\net35\Cesco.FW.Global.UCControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Cesco.FW.Global.Util, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cesco.FW.Global.UCControls.1.2.2.2\lib\net35\Cesco.FW.Global.Util.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.0.85.4\lib\net35\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WORKPACKAGERV3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Interop.WORKPACKAGERV3Lib.1.0.0\lib\net35\Interop.WORKPACKAGERV3Lib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -56,6 +75,9 @@
     <EmbeddedResource Include="uc_AgingTestManager.resx">
       <DependentUpon>uc_AgingTestManager.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
