@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CETAgingManager", "CETAgingManager\CETAgingManager.csproj", "{912BD2F6-BEBD-405E-B891-D117DFC726D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesco.FW.TestForm", "Cesco.FW.TestForm.3.5\Cesco.FW.TestForm.csproj", "{79C82DB3-FAF3-4017-A1A4-9763D3A70AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912BD2F6-BEBD-405E-B891-D117DFC726D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912BD2F6-BEBD-405E-B891-D117DFC726D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912BD2F6-BEBD-405E-B891-D117DFC726D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912BD2F6-BEBD-405E-B891-D117DFC726D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C82DB3-FAF3-4017-A1A4-9763D3A70AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C82DB3-FAF3-4017-A1A4-9763D3A70AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C82DB3-FAF3-4017-A1A4-9763D3A70AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C82DB3-FAF3-4017-A1A4-9763D3A70AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03AB5A9-E3D6-42A4-9300-415C79915F51}
+	EndGlobalSection
+EndGlobal
